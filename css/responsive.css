@@ -25,14 +25,18 @@
 	padding: 60px 0;
 }
 .breadcrumbs h2 {
-	font-size: 32px;
+	font-size: 20px;
 	font-weight:600;
 }
 .breadcrumbs .bread-list {
 	margin-top: 5px;
 }
+.breadcrumbs ul li  {
+	font-size: 12px;
+	font-weight: 400;
+}
 .breadcrumbs ul li a {
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 400;
 }
 .pagination {
