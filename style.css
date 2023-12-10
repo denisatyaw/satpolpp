@@ -2858,6 +2858,21 @@ body{
 	border: 1px solid #eee;
 	border-radius: 5px;
 }
+
+.news-single .form-group .nice-select{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #eee;
+	text-transform: capitalize;
+	padding: 0px 34px;
+	color: #999;
+	font-size: 14px;
+	font-weight:400;
+	border-radius: 4px;
+	font-weight:400;
+}
+
 .news-single .form-group.message i {
 	top: 22px;
 }
@@ -2893,6 +2908,15 @@ body{
 	background:#1A76D1;
 	color:#fff;
 }
+
+.news-single .form-group.button-aduan .btn{
+	background:#fff;
+	background:#FEC947;
+	color:#1A76D1;
+	font-size: larger;
+	font-size: 20px;
+}
+
 .news-single .form-group.button .btn:hover{
 	color:#fff;
 }
@@ -2906,8 +2930,201 @@ body{
 	-moz-transition:all 0.3s ease 0s;
 	transition:all 0.3s ease 0s;
 }
+
+
+/* .news-single .list-aduan{
+	margin-top: 30px;
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
+	border-radius: 8px;
+	padding: 30px;
+	background-color: #214491;
+} */
+
+.news-single .list-aduan h2, h3, h4 {
+	text-align: left;
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+
+.news-single .list-aduan .faq-head h2 {
+	margin-bottom: 35px;
+	font-weight: 600;
+	font-size: 25px;
+  }
+.news-single .list-aduan .faq-wrap {
+	margin-bottom: 50px;
+  }
+.news-single .list-aduan .faq-wrap:last-child {
+	margin-bottom: 30px;
+  }
+.news-single .list-aduan .accordion {
+	padding-left: 0;
+	margin: 0;
+	padding: 0;
+  }
+.news-single .list-aduan .accordion p {
+	/* margin-top: -10px; */
+	font-size: 15px;
+	display: none;
+	padding: 20px 45px 15px 20px;
+	margin-bottom: 0;
+	background-color: #fff;
+	border-color: #b3b3b3;
+	border-style: solid;
+	border-width: thin;
+	margin-bottom: 15px;
+	border-radius: 1em;
+  }
+.news-single .list-aduan .accordion p span{
+	color: #214491;
+	font-weight: 500;
+}
+.news-single .list-aduan .accordion a {
+	  font-size: 16px;
+	  width: 100%;
+	  display: block;
+	  cursor: pointer;
+	  font-weight: 400;
+	  padding: 15px 0 15px 18px;
+	  border-radius: 0;
+	  background: #214491;
+	  color: #ffffff;
+	  border: 1px solid #eee;
+	  border-radius: 1em;
+	  margin-bottom: 15px;
+  }
+.news-single .list-aduan .accordion a:hover {
+	color:#fff !important;
+	background:#214491 !important;
+  }
+.news-single .list-aduan .accordion a:after {
+	position: absolute;
+	right: 20px;
+	content: "+";
+	top: 16px;
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: 700;
+  }
+.news-single .list-aduan .accordion a:hover:after {
+	color: #fff !important;
+  }
+.news-single .accordion li {
+	position: relative;
+	list-style-type: none;
+	margin-bottom: 30px;
+  }
+.news-single .list-aduan .accordion li:first-child {
+	border-top: 0;
+  }
+.news-single .accordion li:last-child {
+	margin-bottom: 0;
+  }
+.news-single .list-aduan .accordion li a.active {
+	color: #ffffff;
+	background-color: #214491;
+	border: 1px solid #214491;
+  }
+.news-single .list-aduan .accordion li a.active:after {
+	content: "-";
+	font-size: 25px;
+	color: #ffffff;
+  }
 /*===================
 	End Blog CSS
+=====================*/
+
+/*===================
+	Start Album CSS
+=====================*/
+  .img-album {
+	vertical-align: middle;
+  }
+ 
+  
+  /* Hide the images by default */
+  .album-slides {
+	display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+	cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev-album,
+  .next-album {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next-album {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev-album:hover,
+  .next-album:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+	float: left;
+	width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+	opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+	opacity: 1;
+  }
+/*===================
+	End Album CSS
 =====================*/
 
 /*==========================
