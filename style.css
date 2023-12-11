@@ -2955,10 +2955,11 @@ body{
 .news-single .list-aduan h2, h3, h4 {
 	text-align: left;
 	font-size: 24px;
-	color: #fff;
+	color: #214491;
 	margin-bottom: 0px;
 	text-transform: capitalize;
 }
+
 
 .news-single .list-aduan .faq-head h2 {
 	margin-bottom: 35px;
