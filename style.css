@@ -8,6 +8,8 @@ body{
 	color:#888;
 }
 
+
+
 #scrollUp {
 	bottom: 15px;
 	right: 15px;
@@ -1006,6 +1008,14 @@ body{
 .warning{
     border:1px solid red !important;
 }
+
+.main-survey .vertical-center {
+	margin: 0;
+	position: absolute;
+	top: 80%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+  }
 
 /*=========================
 	End Survey CSS
@@ -2946,7 +2956,7 @@ body{
 	text-align: left;
 	font-size: 24px;
 	color: #fff;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	text-transform: capitalize;
 }
 
@@ -3041,11 +3051,16 @@ body{
 /*===================
 	Start Album CSS
 =====================*/
-  .img-album {
-	vertical-align: middle;
+
+.containers{
+	position: relative;
+	background-color: #f1f1f1;
+	padding-top: 1.9em;
+	padding-inline: 0.9em;
+	border-radius: 1em;
+	color: #1F4088;
   }
- 
-  
+
   /* Hide the images by default */
   .album-slides {
 	display: none;
@@ -3102,25 +3117,26 @@ body{
 	color: white;
   }
   
-  .row:after {
+  .rows:after {
 	content: "";
 	display: table;
 	clear: both;
   }
   
   /* Six columns side by side */
-  .column {
+  .columns {
 	float: left;
 	width: 16.66%;
+
   }
   
   /* Add a transparency effect for thumnbail images */
-  .demo {
+  .demos {
 	opacity: 0.6;
   }
   
   .active,
-  .demo:hover {
+  .demos:hover {
 	opacity: 1;
   }
 /*===================
