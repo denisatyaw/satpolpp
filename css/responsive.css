@@ -194,8 +194,9 @@
 	margin: 20px 0;
 }
 .why-choose .choose-right {
-	height: 350px;
+	height: auto;
 	margin-top: 30px;
+	padding-bottom: 10px;
 }
 .services .single-service h4 {
 	margin-bottom: 12px;
@@ -677,7 +678,7 @@
 	padding:0;
 }
 .why-choose .choose-right {
-	height: 350px;
+	height: auto;
 	margin-top: 30px;
 }
 .call-action .content {
@@ -784,8 +785,6 @@
 	background-color: #f9f9f9;
 	border-radius: 10px 10px 0px 0px;
 }
-
-
 
 
 .blog .menu-tab .nav li .first {
@@ -1210,7 +1209,7 @@
 	padding:0;
 }
 .why-choose .choose-right {
-	height: 350px;
+	height: auto;
 	margin-top: 30px;
 }
 .call-action .content {
