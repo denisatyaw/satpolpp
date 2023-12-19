@@ -1742,6 +1742,42 @@ header .nav li .dropdown li ul li:hover a{
 ============================*/
 
 /*=============================
+	Start Simple Table
+===============================*/
+table, td, th {
+	/* I've set all the borders using the border property
+	and then removed the left and right border. Alternatively,
+	we could set border-top and border-bottom properties but 
+	that would result in the repetition of the color. If we
+	want to change the border color, we have to change it in
+	two places. */
+	border: 1px solid #c4dcf3;
+	border-left: 0;
+	border-right: 0;
+	border-collapse: collapse;
+  }
+  
+  td, th {
+	padding: 2px;
+  }
+
+  .link{
+	color: #1A76D1;
+  }
+  
+  th {
+	background-color: #214491;
+	color: white;
+  }
+
+  tfoot {
+	text-align: left;
+  }
+/*=============================
+	End Simple Table
+===============================*/
+
+/*=============================
 	Start Pricing Table CSS
 ===============================*/
 .pricing-table{
@@ -2507,7 +2543,7 @@ header .nav li .dropdown li ul li:hover a{
 }
 /* News Single */
 .news-single {
-	padding: 60px 0 90px;
+	padding: 0px 0 90px;
 	background: #f8f8f8;
 }
 .news-single .single-main {
@@ -2520,9 +2556,24 @@ header .nav li .dropdown li ul li:hover a{
 	border-radius: 8px; */
 }
 
+.news-single .single-main ol,ul{
+	color: #000;
+}
+.standart{
+	font-weight: 400;
+}
+.bold-list{
+	font-weight: 600;
+}
+
 .news-single .single-main li{
 	padding-left: 10px;
 }
+
+.news-single .single-main span{
+	color: blue;
+}
+
 .news-single .news-head{}
 .news-single .news-head img{
 	width:100%;
@@ -3892,9 +3943,11 @@ header .nav li .dropdown li ul li:hover a{
 	margin-top:50px;
 }
 .contact-us .single-info {
-	background: #1a76d1;
-	padding: 40px 60px;
-	height: 150px;
+	background: #F7F7F7;
+	padding: 10px 20px;
+	margin-bottom: 15px;
+	/* text-align: center; */
+	height: 120px;
 	border-radius: 10px;
 	position:relative;
 	-webkit-transition: all .3s ease-out 0s;
@@ -3913,7 +3966,7 @@ header .nav li .dropdown li ul li:hover a{
     margin: 0 auto;
     width: 80%;
     height: 90%;
-    background:#1A76D1;
+    background:#f0f0f0;
     opacity: 0;
     filter: blur(10px);
     -webkit-transition: all .3s ease-out 0s;
@@ -3930,23 +3983,28 @@ header .nav li .dropdown li ul li:hover a{
 }
 .contact-us .single-info i{
 	font-size:42px;
-	color:#fff;
+	color:#000000;
 	position:absolute;
 	left:40px;
 }
 .contact-us .single-info .content {
-	margin-left: 45px;
+	/* margin-left: 45px; */
 }
 .contact-us .single-info .content h3{
-	color:#fff;
+	color:#000000;
 	font-size:18px;
 	font-weight:600;
 	
 }
 .contact-us .single-info .content p{
-	color:#fff;
+	color:#000000;
 	margin-top:5px;
 }
+
+.contact-us .single-info .content a{
+	color:#000000;
+}
+
 /* Google Map */
 .contact-us #myMap {
 	height: 100%;

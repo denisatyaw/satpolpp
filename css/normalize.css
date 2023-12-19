@@ -521,8 +521,9 @@ Preloader Area CSS
 	font-size: 27px;
 	font-weight: 500;
 	margin: 0;
-	padding: 0;
+	/* padding: 0; */
 }
+
 .breadcrumbs .bread-list {
 	display: inline-block;
 	margin-top: 5px;
