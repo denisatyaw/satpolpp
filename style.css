@@ -2507,6 +2507,10 @@ header .nav li .dropdown li ul li:hover a{
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
 	border-radius: 8px; */
 }
+
+.news-single .single-main li{
+	padding-left: 10px;
+}
 .news-single .news-head{}
 .news-single .news-head img{
 	width:100%;
@@ -2640,6 +2644,10 @@ header .nav li .dropdown li ul li:hover a{
 	color: #000;
 	text-align: left;
 	
+}
+
+.single-main .struktur-org{
+	width: 100%;
 }
 
 .news-single .blog-bottom {
