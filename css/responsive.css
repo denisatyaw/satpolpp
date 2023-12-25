@@ -549,18 +549,18 @@
 }
 .breadcrumbs h2 {
 	padding-top: 20px;
-	font-size: 22px;
+	font-size: 1em;
 	font-weight:500;
 }
 .breadcrumbs .bread-list {
 	margin-top:10px;
 }
 .breadcrumbs ul li{
-	font-size: 14px;
+	font-size: 10px;
 	font-weight: 400;
 }
 .breadcrumbs ul li a {
-	font-size: 14px;
+	font-size: 10px;
 	font-weight: 400;
 }
 .btn {
@@ -1062,6 +1062,10 @@
 	padding: 20px 0;
 }
 
+.logo-footer{
+	height: 50%;
+	margin: 0.8em;	
+}
 
 }
 /* Mobile Screen */

@@ -232,7 +232,7 @@ body{
 }
 .header .nav li a {
 	color: #fff;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 500;
 	text-transform: capitalize;
 	padding: 25px 12px;
@@ -4975,6 +4975,11 @@ table, td, th {
 	text-decoration:underline;
 	display:inline-block;
 	margin-left:4px;
+}
+
+.logo-footer{
+	height: 35%;
+	margin-inline: 0.8em;	
 }
 /*=========================
 	End Footer CSS

@@ -518,10 +518,11 @@ Preloader Area CSS
 .breadcrumbs h2{
 	color: #000000;
 	text-transform:capitalize;
-	font-size: 27px;
+	font-size: 19px;
 	font-weight: 500;
 	margin: 0;
 	/* padding: 0; */
+	padding-top: 9px;
 }
 
 .breadcrumbs .bread-list {
@@ -538,7 +539,7 @@ Preloader Area CSS
 }
 .breadcrumbs ul li i {
 	margin: 0px 10px;
-	font-size: 14px;
+	font-size: 10px;
 	font-weight: 600;
 	color:#727272;
 }
