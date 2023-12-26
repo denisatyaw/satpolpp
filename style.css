@@ -4978,8 +4978,12 @@ table, td, th {
 }
 
 .logo-footer{
-	height: 35%;
-	margin-inline: 0.8em;	
+	height: 40%;
+	margin-inline: 1em;	
+}
+
+.logo-footers{
+	width: 75%;
 }
 /*=========================
 	End Footer CSS

@@ -1,4 +1,12 @@
 
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.logo-footer{
+		height: 30%;
+		margin-inline: 0.8em;	
+	}
+	
+}
+
 /* Tablet Screen */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 /* Header Sticky */
@@ -373,6 +381,13 @@
 }
 .footer .footer-top {
 	padding: 65px 0px;
+}
+.logo-footer{
+	height: 35%;
+	margin-inline: 1.2em;	
+}
+.logo-footers{
+	width: 55%;
 }
 .footer 
 
@@ -1067,6 +1082,10 @@
 	margin: 0.8em;	
 }
 
+.logo-footers{
+	width: 40%;
+}
+
 }
 /* Mobile Screen */
 @media only screen and (max-width: 450px) {
@@ -1351,7 +1370,9 @@
 	padding: 65px 0px;
 }
 
-
+.logo-footers{
+	width: 55%;
+}
 
 
 
